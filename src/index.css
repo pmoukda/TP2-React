@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+body{
+font-family: 'Poppins'; 
+}
+
+.logo{
+  font-weight: bold;
+  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-pink{
+  @apply font-semibold border-2 border-pink-400 rounded w-lg text-center uppercase py-2 hover:bg-pink-400;
+}
+.btn-yellow{
+  @apply rounded-md bg-yellow-500 text-xl py-4 px-6 hover:bg-red-400 uppercase hover:text-white mt-5;
+}

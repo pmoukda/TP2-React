@@ -2,9 +2,8 @@ import { Link } from 'react-router-dom'
 
 // import { useLocation } from 'react-router-dom';
 const NavBar = ({logo = "SunVacay"}) => {
-       return (
-     
-        <header className="header lg:px-16 px-4 bg-red-400 flex flex-wrap items-center py-4 shadow-md">
+    return (
+        <header className="lg:px-16 px-4 bg-red-400 flex flex-wrap items-center py-4 shadow-md">
             <div className="flex-1 flex justify-between items-center">
                 <Link className='logo text-3xl text-yellow-400' to="/">{logo}</Link>
             </div>
@@ -15,8 +14,7 @@ const NavBar = ({logo = "SunVacay"}) => {
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
             </svg>
             </label>
-            <input className="hidden" type="checkbox" id="menu-toggle" />
-
+            <input className="hidden" type="checkbox" id="menu-toggle"/>
             <div className="hidden md:flex md:items-center md:w-auto w-full" id="menu">
                 <nav>
                     <ul className="md:flex items-center justify-between text-lg text-white pt-4 md:pt-0">
