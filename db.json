@@ -1,20 +1,68 @@
 {
-    "forfaits": [
-        {
-            "id": "1",
-            "Nom du forfait": "Exploration de Hawaii",
-            "Description": "Vivez une semaine inoubliable sur les îles d’Hawaï, entre volcans, cascades et plages de rêve. Ce forfait 'Aventure' est conçu pour les amateurs de nature, d’adrénaline et de découvertes culturelles authentiques.",
-            "Prix": 5600,
-            "Catégorie": "Aventure"
-        },
-        {
-            "id": "2",
-            "Nom du forfait": "Séjour à Paris",
-            "Description": "Séjournez à Paris et vivez l’élégance à la française.Entre monuments emblématiques, balades romantiques et gastronomie raffinée, la Ville Lumière vous promet une escapade inoubliable.",
-            "Prix": 2400,
-            "Catégorie": "Culturelle"
-        }
-      
-
-    ]
+  "forfaits": [
+    {
+      "id": "2",
+      "nomForfait": "Séjour à Paris",
+      "description": "Séjournez à Paris et vivez l’élégance à la française. Entre monuments emblématiques, balades romantiques et gastronomie raffinée, la Ville Lumière vous promet une escapade inoubliable.",
+      "prix": 2400,
+      "categorie": "Culturel",
+      "image": "https://images.unsplash.com/photo-1602833334025-5019f046b8f7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXMlMjBjYWZlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "8198",
+      "nomForfait": "Croissière aux Bahamas",
+      "description": "Embarquez pour une aventure inoubliable à travers les eaux turquoise des Bahamas ! Profitez de plages paradisiaques, de récifs coralliens spectaculaires, et de villages colorés baignés de soleil. Cette croisière vous transporte entre détente absolue, activités nautiques et découvertes culturelles.",
+      "prix": 6800,
+      "categorie": "Croissière",
+      "image": "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=1864&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "9105",
+      "nomForfait": "Retraite Yoga à Bali",
+      "description": "Évadez-vous à Bali pour un séjour détente alliant yoga, méditation et soins spa dans un cadre naturel d’exception. Respirez l’air pur, reconnectez-vous à vous-même et profitez d’une cuisine saine et savoureuse. Un vrai havre de paix loin du stress du quotidien.",
+      "prix": 4800,
+      "categorie": "Bien-être",
+      "image": "https://images.unsplash.com/photo-1575299948637-4a77f7139630?q=80&w=1550&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "4995",
+      "nomForfait": "Évasion Paradisiaque aux Maldives",
+      "description": "Offrez-vous un séjour inoubliable dans un cadre idyllique aux Maldives. Profitez de bungalows sur pilotis avec vue sur l’océan, plages de sable blanc immaculé et eaux turquoise. Ce forfait inclut des soins spa exclusifs, des massages relaxants, ainsi qu’un accès à la piscine à débordement et aux activités nautiques douces comme le snorkeling ou le kayak. Détente absolue garantie, loin du tumulte du quotidien.",
+      "prix": 6900,
+      "categorie": "Bien-être",
+      "image": "https://images.unsplash.com/photo-1620065487644-1080510335f5?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "06a7",
+      "nomForfait": "Évasion de Luxe aux Seychelles",
+      "description": "Plongez dans un séjour d'exception au coeur des plages de sable blanc et des eaux turquoise des Seychelles. Ce forfait haut de gamme inclut l’hébergement en villa privée avec vue sur l’océan, soins spa personnalisés, cuisine raffinée et excursions exclusives sur les îles environnantes. Détente, nature et élégance se mêlent pour une expérience inoubliable.",
+      "prix": 5790,
+      "categorie": "Bien-être",
+      "image": "https://images.unsplash.com/photo-1597500320466-481a4518343b?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "ed78",
+      "nomForfait": "Aventure Extrême en Patagonie",
+      "description": "Explorez les paysages sauvages de la Patagonie à travers un circuit unique mêlant trek en montagne, kayak sur les lacs glaciaires et nuits en refuge. Ce forfait s’adresse aux amateurs de sensations fortes et d’expéditions authentiques.",
+      "prix": 3820,
+      "categorie": "Aventure",
+      "image": "https://images.unsplash.com/photo-1682024619121-aabb0305a496?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "06a3",
+      "nomForfait": "Safari Prestige en Tanzanie",
+      "description": "Partez pour une aventure exceptionnelle à travers les parcs nationaux de Tanzanie. Explorez le Serengeti et le cratère du Ngorongoro en 4x4 avec guide privé, observez les Big Five dans leur habitat naturel et vivez des couchers de soleil spectaculaires depuis un lodge tout confort.",
+      "prix": 3570,
+      "categorie": "Aventure",
+      "image": "https://images.unsplash.com/photo-1700222247312-38f688043ada?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "7ce4",
+      "nomForfait": "Forfait week-end de Ski Alpes Premium",
+      "description": "Profitez d'un accès illimité aux pistes des stations les plus réputées des Alpes françaises. Le forfait inclut les remontées mécaniques, la location de matériel haut de gamme, et des cours de ski collectifs pour tous niveaux. Hébergement en chalet possible en option.",
+      "prix": 2500,
+      "categorie": "Sport",
+      "image": "https://images.unsplash.com/photo-1459196305771-53130577277a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
 }
