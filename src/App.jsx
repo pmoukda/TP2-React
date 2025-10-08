@@ -31,6 +31,7 @@ function App() {
     getForfaits()
   }, [])
 
+
   // Récupération des données
   const fetchForfaits = async (url) => {
     const res = await fetch(url)
@@ -109,7 +110,7 @@ function App() {
           { showFormAdd && <AddForfait onAdd={addForfait}/>}
           { showFormEdit && forfaitEnEdition && <EditForfait initForfait={forfaitEnEdition} onEdit={editForfait} onCancel={() => {setShowForfaitEdit(false); setForfaitEnEdition(null)}}/>}
           <Routes>
-            <Route path="/" element={<Accueil forfaits={forfaits} /> }/>
+            <Route path="/" element={<Accueil/> }/>
             <Route path="/apropos" element={<APropos />}/>
             <Route path="/forfaits" element={<LesForfaits forfaits={forfaits} onDelete={deleteForfait} onEdit={editClick} />}/>
             <Route path="/forfait/:id" element={<LeForfait setShowForfait={setShowForfait} />}/>
