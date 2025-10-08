@@ -1,4 +1,3 @@
-// import { Link } from 'react-router-dom';
 import Forfait from './Forfait';
 
 // Identifier chaque élément dans la liste par son id

@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
+
 //Affichages de la liste des forfaits/ section delete et edit pour admin 
 const Forfait= ({forfait, onDelete, onEdit}) => {
-
+    
     return (
         <div className="max-w-lg bg-white rounded-md shadow p-2 transform transition duration-300 hover:scale-105 hover:shadow-xl cursor-pointer overflow-hidden flex flex-col">
             <div className="px-2 py-4 border-b border-gray-300 flex items-center justify-between">
-                <FaEdit className="text-green-800 pointer" onClick={() =>onEdit(forfait.id)}/>
+                <FaEdit className="text-green-800 pointer" onClick={() =>onEdit(forfait)}/>
                 <FaTrash className="text-red-700 pointer" onClick={() =>onDelete(forfait.id)}/> 
             </div>
             <div className="px-2 py-2 flex-1">
