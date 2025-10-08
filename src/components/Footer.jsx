@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = ({logo= 'SunVacay'}) => {
     return (
-        <div className="mt-15 bg-black text-white px-4 py-6">
+        <div className="mt-20 bg-black text-white px-4 py-6">
             <div className="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4">
                 <Link className='logo text-3xl text-yellow-400 mt-2' to="/">{logo}</Link>
                 <div className="italic mt-2">

@@ -15,8 +15,8 @@ const Forfait= ({forfait, onDelete, onEdit}) => {
                 <h2 className="text-lg font-bold">{forfait.nomForfait}</h2>
                 <p className="text-red-400 text-lg mt-2 mb-4"><strong>Prix: </strong>{forfait.prix} $</p>
             </div>
-                <div className="w-full h-50 overflow-hidden px-2">
-                    <img className="w-full h-full object-cover" src={forfait.image} alt="image" />
+                <div className="overflow-hidden px-2">
+                    <img className="aspect-4/3 object-cover" src={forfait.image} alt="image" />
                 </div>
             <div className="flex justify-center mb-3 px-2 pt-4">
                 <Link to={`/forfait/${forfait.id}`} className="btn-pink">Réservez</Link>
