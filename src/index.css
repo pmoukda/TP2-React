@@ -3,6 +3,12 @@
 body{
 font-family: 'Poppins'; 
 }
+h3{
+  @apply text-xl font-semibold py-4;
+}
+img{
+  object-fit: cover;
+}
 
 .logo{
   font-weight: bold;
@@ -13,11 +19,20 @@ font-family: 'Poppins';
 .btn-pink{
   @apply font-semibold border-2 border-pink-400 rounded w-lg text-center uppercase py-2 hover:bg-pink-400;
 }
+.btn-red{
+  @apply font-semibold bg-red-400 rounded w-lg text-center uppercase py-2 hover:bg-red-500;
+}
+.btn-small-red{
+  @apply font-semibold bg-red-400 px-4 py-2 rounded hover:bg-red-500;
+}
 .btn-yellow{
   @apply rounded-md bg-yellow-500 text-xl py-4 px-6 hover:bg-red-400 uppercase hover:text-white mt-5;
 }
 .btn-blue{
   @apply w-full bg-blue-600 text-white text-lg py-2 px-4 rounded hover:bg-blue-800 transition duration-300;
+}
+.btn-lg{
+  @apply w-lg
 }
 .btn-small-blue{
   @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700;

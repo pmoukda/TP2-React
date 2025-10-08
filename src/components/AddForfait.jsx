@@ -11,7 +11,7 @@ const AddForfait = ({onAdd}) => {
     // Empêcher le rechargement de la page
     const onSubmit =(e) =>{
         e.preventDefault();
-        if(!nomForfait || !description || !prix || !categorie){
+        if(!nomForfait || !description || !prix || !categorie || !image){
             alert('Veuillez remplir tous les champs.')
             return;
         }
